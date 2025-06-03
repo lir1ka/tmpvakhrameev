@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "lir1ka_tmp"
+version = "0.1.0"
+description = ""
+authors = ["lir1ka <vakhrameevaa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+databases = "^0.9.0"
+fastapi = "^0.115.12"
+aiosqlite = "^0.21.0"
+uvicorn = "^0.34.3"
+pytest = "^8.3.5"
+httpx = "^0.28.1"
+requests = "^2.32.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
